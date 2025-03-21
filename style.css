@@ -641,9 +641,57 @@
                 text-align: center;
             }
 
-            @media screen and (max-width: 340px) {
+            @media screen and (max-width: 360px) {
                 .header-left .heading{
-                    font-size: 2.5rem;
+                    font-size: 2.7rem;
+                }
+
+                .header-left .para{
+                    font-size: 1rem;
+                }
+
+                .get_started{
+                    padding: 10px 24px;
+                    font-size: 1rem;
+                }
+
+                .company-heading{
+                    font-size: 1rem;
+                }
+
+                .example-btn{
+                    padding: 10px 24px;
+                    font-size: .9rem;
+                }
+
+                .small-features-heading{
+                    font-size: 1.3rem;
+                }
+
+                .feature a{
+                    font-size: .9rem;
+                    padding-inline: 20px;
+                }
+
+                .features-section-desc{
+                    font-size: .9rem !important; 
+                }
+
+                .text-big-features pre{
+                    font-size: .8rem;
+                }
+
+                .text-big-features .user img{
+                    height: 50px;
+                }
+
+                .examples-image{
+                    height: 140px !important;
+                }
+
+                .examples-image h3{
+                    font-size: 1rem !important;
+                    margin-bottom: 10px !important;
                 }
             }
         }
